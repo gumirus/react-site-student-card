@@ -1,5 +1,5 @@
 import { Route, Switch, Redirect } from "react-router-dom";
-import CardStudent from "./Pages/cardStudent";
+import Student from "./Pages/student";
 import Home from "./Pages/home";
 import Header from "./Components/header";
 import Contact from "./Pages/contact";
@@ -10,9 +10,9 @@ function App() {
       <Header />
       <Switch>
         <Route path="/home" exact component={Home} />
-        <Route path="/cardStudent" exact component={CardStudent} />
-        <Route path="/contact" exact component={Contact} />
-        <Redirect to="/404" />
+        <Route path="/student" component={Student} />
+        <Route path="/contact" component={Contact} />
+        <Redirect to="/" />
       </Switch>
     </>
   );
