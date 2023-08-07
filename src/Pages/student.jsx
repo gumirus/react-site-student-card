@@ -1,3 +1,4 @@
+// Student.jsx
 import React, { useState } from "react";
 
 const Student = () => {

@@ -1,3 +1,4 @@
+// floader App.js
 import { Route, Switch, Redirect } from "react-router-dom";
 import Student from "./Pages/student";
 import Home from "./Pages/home";
@@ -8,12 +9,15 @@ function App() {
   return (
     <>
       <Header />
-      <Switch>
+      <div>
+        <Switch>
         <Route path="/home" exact component={Home} />
         <Route path="/student" component={Student} />
         <Route path="/contact" component={Contact} />
         <Redirect to="/" />
       </Switch>
+      </div>
+      
     </>
   );
 }
