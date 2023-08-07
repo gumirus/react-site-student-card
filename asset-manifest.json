@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-site-student-card/static/css/main.ababef68.css",
-    "main.js": "/react-site-student-card/static/js/main.ca78e569.js",
-    "static/js/787.3b0ce40a.chunk.js": "/react-site-student-card/static/js/787.3b0ce40a.chunk.js",
-    "index.html": "/react-site-student-card/index.html",
-    "main.ababef68.css.map": "/react-site-student-card/static/css/main.ababef68.css.map",
-    "main.ca78e569.js.map": "/react-site-student-card/static/js/main.ca78e569.js.map",
-    "787.3b0ce40a.chunk.js.map": "/react-site-student-card/static/js/787.3b0ce40a.chunk.js.map"
+    "main.css": "/gumirus/react-site-student-card/static/css/main.ababef68.css",
+    "main.js": "/gumirus/react-site-student-card/static/js/main.1cbb4f34.js",
+    "static/js/787.3b0ce40a.chunk.js": "/gumirus/react-site-student-card/static/js/787.3b0ce40a.chunk.js",
+    "index.html": "/gumirus/react-site-student-card/index.html",
+    "main.ababef68.css.map": "/gumirus/react-site-student-card/static/css/main.ababef68.css.map",
+    "main.1cbb4f34.js.map": "/gumirus/react-site-student-card/static/js/main.1cbb4f34.js.map",
+    "787.3b0ce40a.chunk.js.map": "/gumirus/react-site-student-card/static/js/787.3b0ce40a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ababef68.css",
-    "static/js/main.ca78e569.js"
+    "static/js/main.1cbb4f34.js"
   ]
 }
