@@ -1,6 +1,6 @@
 {
-  "homepage": "https://gumirus.github.io/react-site-student-card/",
   "name": "react-site-student-card",
+  "homepage": "https://gumirus.github.io/react-site-student-card/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
