@@ -1,6 +1,7 @@
-//Header.jsx
+// Header.jsx
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const Header = () => {
   return (
@@ -9,9 +10,15 @@ const Header = () => {
         <Container>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              <Nav.Link href="/home">Home</Nav.Link>
-              <Nav.Link href="/student">Карточка студента</Nav.Link>
-              <Nav.Link href="/contact">Обо мне</Nav.Link>
+              <Nav.Link as={Link} to="/home">
+                Главная
+              </Nav.Link>
+              <Nav.Link as={Link} to="/student">
+                Карточка студента
+              </Nav.Link>
+              <Nav.Link as={Link} to="/contact">
+                Обо мне
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
